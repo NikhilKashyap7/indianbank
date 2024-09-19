@@ -1,17 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.js";
+import Mylandingpage from './dashboard/Mylandingpage';
+import '../src/dashboard/cssfiles/Custom.css'
+import Myhomepage from './dashboard/Myhomepage';
+import Customeronlineservice from './dashboard/myfiles/Customeronlineservice';
+import '../src/dashboard/cssfiles/Customeronlineservice.css'
+import '../src/dashboard/cssfiles/Popup.css'
+import '../src/dashboard/cssfiles/Footer.css'
+import '../src/dashboard/cssfiles/Homepage.css'
+import Footer from './dashboard/myfiles/Myfooter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Navigate to="/dashboard" />} />
+      <Route path="dashboard" element={<Mylandingpage />} />
+      <Route path="myhomepage" element={<Myhomepage/>} />
+      <Route path="Coservices" element={<Customeronlineservice/>}/>
+      <Route path="Footer" element={<Footer/>}/>
+    </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+

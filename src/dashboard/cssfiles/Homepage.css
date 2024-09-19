@@ -1,0 +1,361 @@
+  /* Slider CSS Starts from here */
+
+.slider-img{
+    position: relative;
+}
+.slider-btn{
+    display: flex;
+    position: absolute;
+    gap: 2%;
+    width: 100%;
+    justify-content: center;
+    bottom: 30px;
+}
+.s-btn{
+    
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+   
+}
+.slider-btn :hover{
+    background-color: #d92b2b;
+    cursor: pointer;
+}
+
+
+   /* Right Sidebar starts from here */
+.right-sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 160px;
+    margin-top: 180px;
+}
+.netbankin-img {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    right: 7px;
+    bottom: 5px;
+}
+.nb-text {
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 32px;
+    position: absolute;
+    width: 105px;
+    left: 60px;
+}
+.net-banking {
+    background-color: #d92b2b;
+    width: 160px;
+    height: 56px;
+    padding: 5px;
+    transition: .4s;
+    display: flex;
+    position: relative;
+    padding: 12px;
+}
+.net-banking:hover {
+    scale: 1.1;
+}
+.nri-img {
+    width: 35px;
+    height: 40px;
+    padding-left: 1px;
+
+}
+.nri-text {
+    width: 105px;
+    position: absolute;
+    font-size: 13px;
+    line-height: 16px;
+    left: 60px;
+}
+
+.nri-forex {
+    background-color: blue;
+    width: 160px;
+    height: 56px;
+    color: white;
+    display: flex;
+    text-align: left;
+    transition: .4s;
+    padding: 12px;
+    position: relative;
+}
+
+.nri-forex:hover {
+    scale: 1.1;
+}
+
+.gift-img {
+    width: 40px;
+    height: 40px;
+}
+
+.reward {
+    background-color: #1e6bb5;
+    width: 160px;
+    height: 56px;
+    padding: 12px;
+    display: flex;
+    transition: .4s;
+    position: relative;
+}
+
+.gift-text {
+    width: 105px;
+    line-height: 16px;
+    font-size: 13px;
+    left: 60px;
+    color: #ffffff;
+    margin-left: 7px;
+}
+
+.reward-text {
+    font-size: 11px;
+}
+
+.reward:hover {
+    scale: 1.1;
+}
+
+.rs-icon {
+    position: relative;
+    bottom: 5px;
+    width: 32px;
+    height: 45px;
+}
+
+.m-bankingtext {
+    width: 101px;
+    line-height: 16px;
+    color: white;
+    left: 50px;
+    padding-left: 12px;
+    position: absolute;
+    font-size: 13px;
+    display: inline-block !important;
+}
+
+.mobile {
+    background-color: #7731a3;
+    width: 160px;
+    height: 56px;
+    padding: 12px;
+    transition: .4s;
+    display: block;
+}
+
+.mobile:hover {
+    scale: 1.1;
+}
+
+.cusicon {
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+.cus-text {
+    color: white;
+    width: 101px;
+    left: 60px;
+    line-height: 16px;
+    position: absolute;
+    font-size: 13px;
+    display: inline-block !important;
+}
+
+.support {
+    background-color: #4DC313;
+    width: 160px;
+    height: 56px;
+    padding: 12px;
+    transition: .4s;
+    display: block;
+    position: relative;
+}
+
+.support:hover {
+    scale: 1.1;
+}
+
+.dform-img {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    bottom: 0;
+}
+
+.dform-text {
+    color: white;
+    width: 101px;
+    left: 60px;
+    line-height: 16px;
+    position: absolute;
+    font-size: 13px;
+    display: inline-block !important;
+}
+
+.form-download {
+    background-color: #BA3294;
+    width: 160px;
+    height: 56px;
+    padding: 12px;
+    transition: .4s;
+    display: flex;
+}
+
+.form-download:hover {
+    scale: 1.1;
+}
+.left-sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 160px;
+    margin-top: 180px;
+}
+.chatbot-area{
+    max-height: 80px;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    margin-top: 580px;
+    right: 25px;
+    width: -110px;
+    /* box-shadow: 5px 5px 5px#ffe8a3; */
+    filter:drop-shadow(10px 15px 25px #ffe8a3);
+}
+.chatbot{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border-radius: 75px;
+    
+}
+.chatbot:hover{
+    animation: shake 2s infinite ease-in-out;
+    animation-iteration-count: 3;
+    cursor: pointer;
+    background-color: #ffe8a3;
+    transition: background-color 1s ease;
+}
+@keyframes shake  {
+    0%{
+        transform: scale(1);
+    }
+    10%, 20% {
+        transform: scale(0.9) rotate(-3deg);
+    }
+    30%, 50%, 70%,90%{
+        transform: scale(1.1) rotate(3deg);
+    }
+    40%, 60%, 80% {
+        transform: scale(1.1) rotate(-3deg);
+    }
+    100%{
+        transform: scale(1) rotate(0);
+    }
+
+
+}
+    /* 0% {transform: Rotate(30deg);} */
+    /* 20% {transform: Rotate(-30deg);} */
+    /* 40% {transform: Rotate(20deg);} */
+    /* 50% {transform: Rotate(-20deg);} */
+    /* 80% {transform: RotateY(20deg);} */
+   /* 100% {transform: Rotate(-20deg),;} */
+   /* 0%{scale: 1;} */
+/* 50%{scale: 0.8} */
+/* 75%{scale: 0.8;} */
+
+
+/* .chatbot:hover{
+    animation: zoom 1s infinite ;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes zoom{
+    0%{
+
+    }
+    25%{
+    }
+    50%
+    {
+        scale: 0.8;
+    }
+    75%{
+        scale: 1;
+    }
+    
+} */
+.chatbot img{
+    height: 70px ;
+    width: 70px;
+}
+.botname{
+    font-size: 12px;
+    font-weight: 600;
+    font-family:classic roboto;
+    margin-top: 2px;
+}
+        /* Market Feed CSS started from here */
+
+.market-feed{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #17bad3;
+}
+
+.mf-feed{
+    width: 26%;
+    background-color: #17bad3;
+    text-decoration: none;
+}
+.mf-feed p{
+    color: white;
+    font-size: 20px;
+    text-align:right;
+    font-weight: 600;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.mf-list{
+    width: 19%;
+    color:#17bad3 ;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border-right: 2px solid lightgray;
+    text-decoration: none;
+    
+}
+
+.mf-list a{
+    text-decoration: none;
+}
+.mf-list p:hover{
+    color: #254878;
+    cursor: pointer;
+}
+.mf-blank{
+    width: 16%;
+    background-color: #17bad3;
+}
+
+
+.self-ad{
+    width: 100%;
+    height: auto;
+}
