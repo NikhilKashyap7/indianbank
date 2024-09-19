@@ -356,6 +356,38 @@
 
 
 .self-ad{
-    width: 100%;
+    width: 80%;
     height: auto;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    margin: auto;
+    padding: 20px;
+}
+.rates{
+    padding: 10px;
+}
+.interest-rate{
+    background-color: #1e6bb5;
+    color: #fff;
+}
+.app-link{
+    background-image: url(../images/mobile-app-bg.jpg);
+display: flex;
+width: 100%;
+
+}
+.app-link-1{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}
+.apple{
+    width: 100px;
+    height: 40px;
+}
+.playstore{
+    width: 100px;
+    height: 40px;
 }

@@ -104,17 +104,20 @@ useEffect(() => {
         <div className="rates">
           <div className="interest-rate">
             <h1>MCLR</h1>
+            <div><h1>9%</h1></div>
+            <p>w.e.f. 03/09/2024</p>
           </div>
-          <div className="yt-link"><Link to="https://www.youtube.com/channel/UC71NMIgjPSWTCGXnCc-Aiwg"><img src={youtube}/></Link></div>
+          <div className="yt-link"><Link to="https://www.youtube.com/channel/UC71NMIgjPSWTCGXnCc-Aiwg" target="_blank"><img src={youtube}/></Link></div>
         </div>
         <div className="app-link">
-          <img className="app-link-bg"src={applink}/>
-           <p>
-            <h1>Download Our</h1>
-             <h1>Mobile Apps</h1> 
+           <p style={{padding:15}}>
+            <h4 style={{fontWeight:200}}>Download Our </h4>
+             <h2 style={{fontWeight:500}}>Mobile Apps</h2> 
            </p>
-           <img src={playstore} to="https://play.google.com/store/apps/details?id=com.iexceed.ib.digitalbankingprod"/>
-           <img src={appstore} to="https://apps.apple.com/us/app/indsmart-indianbank-mobile-app/id6479515872"/>
+           <div className="app-link-1">
+           <div><Link to="https://play.google.com/store/apps/details?id=com.iexceed.ib.digitalbankingprod" target="_blank"><img src={playstore} className="playstore"  /></Link></div>
+          <div><Link to="https://apps.apple.com/us/app/indsmart-indianbank-mobile-app/id6479515872" target="_blank"> <img src={appstore} className="apple" /></Link></div>
+           </div>
         </div>
       </div>
      
