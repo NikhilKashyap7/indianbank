@@ -1,57 +1,69 @@
-footer {
-    background-color: #0033cc; /* Your color */
-    padding: 10px;
-    text-align: center;
-    position: fixed;
+.full-footer{
+    background-image: url(../images/footer-bg.jpg) ;
     width: 100%;
-    bottom: 0;
-    transition: all 0.3s ease;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
-
-.footer-menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.upper-footer{
+    width: 100%;
+    height: 500px;
+    position: absolute;
 }
-
-.footer-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 10px;
+.locater-footer{
+    width: 80%;
+    height: auto;
+    box-sizing: border-box;
+    border: 5px solid orange;
+    margin-left: 10%;
+    margin-right:10%;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    position: absolute;
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
 }
-
-.footer-content a {
+.locater-footer h3 {
     color: white;
-    margin: 0 15px;
-    text-decoration: none;
+    
 }
-
-.footer-content a:hover {
-    text-decoration: underline;
+.select-btn{
+    color: #fff;
+    padding: 10px;
 }
-
-.social-icons {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+.select-btn input {
+    margin-right: 10px;
 }
-
-.social-icons img {
-    width: 30px;
-    height: 30px;
-    margin: 0 5px;
+.select-btn label{
+    margin-right: 10px;
 }
-
-button.toggle-footer {
-    background-color: #0033cc;
+.find-span{
+    box-sizing: border-box;
+    border: 2px solid #1da6e3;
+}
+.branchatm-btn{
+    background-color: #1da6e3;
+    padding: 2px 22px;
     border: none;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
+    box-sizing: border-box;
+    border: 1px solid #1da6e3;
 }
-
-button.toggle-footer.active {
-    transform: rotate(180deg);
+.lower-footer{
+    position: absolute;
+    top: 500px;
+    display: flex;
+}
+.lower-footer ul {
+    width: 100%;
+    display: flex;
+    line-height: 18px;
+    text-align: center; 
+    font-size: 11px;
+}
+.lower-footer ul li a{
+    text-decoration: none;
+    color: #fff;
 }

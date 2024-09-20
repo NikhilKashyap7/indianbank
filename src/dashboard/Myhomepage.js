@@ -23,12 +23,11 @@ import applink from './images/mobile-app-bg.jpg'
 import playstore from './images/google-play-store.png'
 import appstore from './images/ios.png'
 import { Link } from "react-router-dom";
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import Slider from "react-slick";
+
+
 function Myhomepage(){
 const anothersite = ()=>{
-  alert("You are being redirected to another website");
+  window.confirm("You are being redirected to another website");
   
 }
 const [slider, SetSlider]= useState(0)
