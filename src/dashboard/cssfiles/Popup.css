@@ -1,0 +1,67 @@
+.modal-content {
+    background-color: #034ea1;
+    width: 50%;
+    height: 400px;
+    margin-left: 25%;
+    position: relative;
+}
+
+.bank-logo {
+    position: absolute;
+    left: 25%;
+    box-sizing: border-box;
+}
+
+.bank-logo img {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    border: 2px solid white;
+}
+
+.popupwritten {
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    line-height: 2%;
+    text-align: center;
+    left: 2%;
+}
+
+.popupwritten h3 {
+    gap: 12%;
+    padding-top: 1%;
+    font-weight: 400;
+}
+
+.lang-select-btn-en {
+    position: absolute;
+    top: 85%;
+    width: 15%;
+    left: 34%;
+    height: 8%;
+    border-radius: 4%;
+    border: none;
+    background-color: #f9d522;
+    text-align: center;
+    font-weight: 600;
+}
+.lang-select-btn-en:hover{
+    color: #034ea1;
+}
+.lang-select-btn-hi {
+    position: absolute;
+    top: 85%;
+    width: 15%;
+    left: 51%;
+    height: 8%;
+    border-radius: 4%;
+    border: none;
+    background-color: #f9d522;
+    text-align: center;
+    font-weight: 600;
+
+}
+.lang-select-btn-hi:hover{
+    color: #034ea1;
+}

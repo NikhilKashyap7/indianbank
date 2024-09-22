@@ -119,6 +119,87 @@ useEffect(() => {
            </div>
         </div>
       </div>
+
+
+<div className="card-carousel">
+  <h2>How Can We Help you Today?</h2>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+<div className="cards">
+    <div class="card card-1">
+  <img src={cardimg1} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h6>IB Home Loan</h6>
+    <p class="card-text">Target Group: Salaried Class, Self-employed, Professional, Businessmen.
+Age: 18 years.
+Purpose of Loan…</p>
+  </div>
+</div>
+
+
+<div class="card card-2">
+  <img src={cardimg2} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h6>IB Home Loan Plus</h6>
+    <p class="card-text">Target Group: All existing Home Loan borrowers (Residents & NRIs) including HL-CRE / IB Home Advantage / HL...</p>
+  </div>
+</div>
+
+<div class="card card-3">
+  <img src={cardimg3} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h6>IB Arogya Raksha - Portability Option for Existing Customers</h6>
+    <p class="card-text">A Banking Raksha for existing Health Insurance product withdrawal by MIs..</p>
+  </div>
+</div>
+
+
+<div class="card card-4">
+  <img src={cardimg4} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h6>Ind Netbanking</h6>
+    <p class="card-text">Eligibility: Customers having Savings Bank, Current Account with us.
+    Features: Customers can use the internet to do banking…</p>
+  </div>
+</div>
+
+</div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+
+    <div class="card card-5">
+  <img src={cardimg5} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h6>Agricultural Jewel Loan Scheme</h6>
+    <p class="card-text">Features: Easy and hassle-free loan scheme.
+Low-interest rates.
+Processing charges and jewel appraisal charges apply.</p>
+  </div>
+</div>
+      
+
+
+
+    </div>
+    
+    
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+      
+
+
+
+
      
         </>
         

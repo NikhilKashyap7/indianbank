@@ -12,6 +12,7 @@ import '../src/dashboard/cssfiles/Popup.css'
 import '../src/dashboard/cssfiles/Footer.css'
 import '../src/dashboard/cssfiles/Homepage.css'
 import Footer from './dashboard/myfiles/Myfooter';
+import Mypopuppage from './dashboard/myfiles/Mypopuppage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,6 +24,8 @@ root.render(
       <Route path="myhomepage" element={<Myhomepage/>} />
       <Route path="Coservices" element={<Customeronlineservice/>}/>
       <Route path="Footer" element={<Footer/>}/>
+      <Route path="Mypopupage" element={<Mypopuppage/>}/>
+
     </Routes>
     </BrowserRouter>
   </React.StrictMode>

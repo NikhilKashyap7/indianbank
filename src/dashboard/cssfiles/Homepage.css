@@ -32,6 +32,7 @@
     right: 0;
     width: 160px;
     margin-top: 180px;
+    z-index: 9999;
 }
 .netbankin-img {
     width: 45px;
@@ -219,6 +220,7 @@
     left: 0;
     width: 160px;
     margin-top: 180px;
+    z-index: 9999;
 }
 .chatbot-area{
     max-height: 80px;
@@ -228,8 +230,8 @@
     margin-top: 580px;
     right: 25px;
     width: -110px;
-    /* box-shadow: 5px 5px 5px#ffe8a3; */
     filter:drop-shadow(10px 15px 25px #ffe8a3);
+    z-index: 9999;
 }
 .chatbot{
     height: 75px;

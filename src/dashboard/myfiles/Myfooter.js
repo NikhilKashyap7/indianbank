@@ -22,7 +22,8 @@ function Myfooter() {
       </div>
 
       <div className="lower-footer">
-        <ul>
+        <ul className='footer-itmes-li'>
+          <div>
           <li><Link>Aadhaar Authentication Through OTP</Link></li>
           <li><Link>Block Lost ATM Card</Link></li>
           <li><Link>Right to Information Act 2005</Link></li>
@@ -30,6 +31,8 @@ function Myfooter() {
           <li><Link>Interest Certificate</Link></li>
           <li><Link>Aadhaar Seeding Online</Link></li>
           <li><Link>Bank Holiday</Link></li>
+          </div>
+          <div>
           <li><Link>MSME</Link></li>
           <li><Link>Apply Online for Home Loan</Link></li>
           <li><Link>Regulatory Disclosures Section</Link></li>
@@ -37,6 +40,8 @@ function Myfooter() {
           <li><Link>IB Retiree Portal</Link></li>
           <li><Link>Security</Link></li>
           <li><Link>Block Lost Credit Card</Link></li>
+          </div>
+          <div>
           <li><Link>IB Staff Portal</Link></li>
           <li><Link>Financial Inclusion</Link></li>
           <li><Link>Complaints Portal</Link></li>
@@ -44,13 +49,16 @@ function Myfooter() {
           <li><Link>N R I / Foreign Exchange</Link></li>
           <li><Link>Customer Centric Services</Link></li>
           <li><Link>Service Charges</Link></li>
+          </div>
+          <div>
           <li><Link>Approved Housing Projects</Link></li>
           <li><Link>Empanelment Of DSA/HLC</Link></li>
           <li><Link>Credit Card Customer Portal</Link></li>
           <li><Link>Debenture Trustee</Link></li>
           <li><Link>CVC Integrity Pledge</Link></li>
           <li><Link>RBI Floating Rate Savings Bond 2020</Link></li>
-          <li><Link>FAQ – Home loans</Link></li>
+          <li><Link>FAQ - Home loans</Link></li>
+          </div>
         </ul>
       </div>
     </footer>
