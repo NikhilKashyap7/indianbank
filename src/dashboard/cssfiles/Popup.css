@@ -46,9 +46,11 @@
     text-align: center;
     font-weight: 600;
 }
-.lang-select-btn-en:hover{
+
+.lang-select-btn-en:hover {
     color: #034ea1;
 }
+
 .lang-select-btn-hi {
     position: absolute;
     top: 85%;
@@ -62,6 +64,7 @@
     font-weight: 600;
 
 }
-.lang-select-btn-hi:hover{
+
+.lang-select-btn-hi:hover {
     color: #034ea1;
 }

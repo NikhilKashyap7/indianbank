@@ -1,28 +1,24 @@
 import React, { useState, useEffect } from "react";
 import Logo from "../images/applogo1.jpg";
 function Mypopuppage() {
-  const [isPopupVisible, setIsPopupVisible] = useState(false); // State to handle popup visibility
+  const [isPopupVisible, setIsPopupVisible] = useState(false);
 
   useEffect(() => {
-    // Show the popup after 3 seconds
     const popupTimer = setTimeout(() => {
       setIsPopupVisible(true);
     }, 100);
 
-    // Cleanup timer when the component is unmounted
     return () => {
       clearTimeout(popupTimer);
     };
-  }, []); // Empty dependency array ensures it runs once after the component mounts
+  }, []);
 
-  // Close the popup when user clicks the close button
   const closePopup = () => {
     setIsPopupVisible(false);
   };
 
   return (
     <>
-      {/* Popup Modal */}
       {isPopupVisible && (
         <div
           className="modal show Popupwindow"
@@ -41,9 +37,20 @@ function Mypopuppage() {
                 </h3>
                 <h3>Select your Preferred Language to Enter the Website</h3>
               </div>
-              <p type="button" className="lang-select-btn-en" onClick={closePopup}>English</p>
-              <p type="button" className="lang-select-btn-hi" onClick={closePopup}>हिन्दी</p>
-
+              <p
+                type="button"
+                className="lang-select-btn-en"
+                onClick={closePopup}
+              >
+                English
+              </p>
+              <p
+                type="button"
+                className="lang-select-btn-hi"
+                onClick={closePopup}
+              >
+                हिन्दी
+              </p>
             </div>
           </div>
         </div>
