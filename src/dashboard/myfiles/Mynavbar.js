@@ -6,10 +6,13 @@ import phone from "../images/phoneicon.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
+import toggle from "../images/toogle.png"
 function Mynavbar() {
   const [fontSize, setFontsize] = useState(15);
   const [bgColor, setBgColor] = useState("rgba(12, 77, 162, .8)");
@@ -38,22 +41,34 @@ function Mynavbar() {
   const navigate = useNavigate();
   return (
     <>
-      <div>
+      <div className="nvbar">
         <nav
-          className="navbar navbar-expand-lg navcss fixed-top"
+          className="navbar navbar-expand-lg navcss "
           style={{ backgroundColor: bgColor }}
         >
           <div className="container-fluid sticky-top">
+            <div className="toggle">
+              <img src={toggle}/>
+            </div>
             <Link className="navbar-brand" to="/dashboard">
               <img src={Logo} alt="Bank's logo" className="brandimg" />
             </Link>
-            <form className="d-flex" role="search">
+            <form className="d-flex" role="search" method="post">
+            < FontAwesomeIcon icon={faMagnifyingGlass} className="search-icon" />
+
               <input
-                className="form-control me-2 search"
-                type="search"
+            className="search-menu"
                 placeholder="Search"
+                // onFocus="this.placeholder='search'"
+                // onBlur="this.placeholder='Search'"
+                onFocus={(e) => e.target.placeholder = 'Search'}
+                onBlur={(e) => e.target.placeholder = 'Search'}
                 aria-label="Search"
+                autoComplete="off"
+                style={{color:'blue'}}
+
               />
+              
             </form>
             <p className="hindi">
               <b>हिन्दी</b>
@@ -105,10 +120,10 @@ function Mynavbar() {
             </a>
           </div>
         </nav>
-      </div>
 
-      {/* Second Navbar starts from here */}
-      <nav className="second-navbar ">
+
+        {/* ------------------------Second Navbar starts from here--------------------------------------------------- */}
+      <div className="second-navbar ">
         <ul
           className="navbar-list"
           id="text"
@@ -279,7 +294,10 @@ function Mynavbar() {
             <button className="navbar-item apply-btn">APPLY ONLINE</button>
           </Link>
         </ul>
-      </nav>
+      </div>
+      </div>
+
+      
     </>
   );
 }

@@ -13,6 +13,7 @@ import "../src/dashboard/cssfiles/Footer.css";
 import "../src/dashboard/cssfiles/Homepage.css";
 import Footer from "./dashboard/myfiles/Myfooter";
 import Mypopuppage from "./dashboard/myfiles/Mypopuppage";
+import "./dashboard/cssfiles/Responsive1.css"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

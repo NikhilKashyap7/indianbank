@@ -23,7 +23,13 @@ import applink from "./images/mobile-app-bg.jpg";
 import playstore from "./images/google-play-store.png";
 import appstore from "./images/ios.png";
 import { Link } from "react-router-dom";
-
+import customer from "./images/happy-customer-1.png"
+import atm from "./images/atm-1.png"
+import branches from "./images/branch-1.png"
+import bna from "./images/bna-1.png"
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+</style>
 function Myhomepage() {
   const anothersite = () => {
     window.confirm("You are being redirected to another website");
@@ -42,6 +48,65 @@ function Myhomepage() {
     return () => clearInterval(interval);
   }, [data.length]);
 
+  // ------------------------------counter---------------------
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCount((prevCount) => {
+        if (prevCount >= 109293501) {
+          clearInterval(interval);
+          return 109293501;
+        }
+        return prevCount + 100500;
+      });
+    }, 1);
+
+    return () => clearInterval(interval);
+  });
+
+  const [count1, setCount1] = useState(0);
+  useEffect(() => {
+    const myinterval = setInterval(() => {
+      setCount1((prevCount1) => {
+        if (prevCount1 >= 3106) {
+          clearInterval(myinterval);
+          return 3106;
+        }
+        return prevCount1 + 15;
+      });
+    }, 1);
+    return () => clearInterval(myinterval);
+  });
+
+  const [count2, setCount2] = useState(0);
+  useEffect(() => {
+    const myinterval = setInterval(() => {
+      setCount2((prevCount2) => {
+        if (prevCount2 >= 5845) {
+          clearInterval(myinterval);
+          return 5845;
+        }
+        return prevCount2 + 20;
+      });
+    }, 1);
+    return () => clearInterval(myinterval);
+  });
+  
+  const [count3, setCount3] = useState(0);
+  useEffect(() => {
+    const myinterval = setInterval(() => {
+      setCount3((prevCount3) => {
+        if (prevCount3 >= 1780) {
+          clearInterval(myinterval);
+          return 1780;
+        }
+        return prevCount3 + 10;
+      });
+    }, 1);
+    return () => clearInterval(myinterval);
+  });
+  // ------------------------counter ends--------------------------------------------
   return (
     <>
       <div className="slider">
@@ -160,55 +225,7 @@ function Myhomepage() {
         <div className="mf-blank"></div>
       </div>
 
-      <div className="self-ad">
-        <div className="rbi-scheme">
-          <img src={rbi} />
-        </div>
-
-        <div className="rates">
-          <div className="interest-rate">
-            <h1>MCLR</h1>
-            <div>
-              <h1>9%</h1>
-            </div>
-            <p>w.e.f. 03/09/2024</p>
-          </div>
-          <div className="yt-link">
-            <Link
-              to="https://www.youtube.com/channel/UC71NMIgjPSWTCGXnCc-Aiwg"
-              target="_blank"
-            >
-              <img src={youtube} />
-            </Link>
-          </div>
-        </div>
-        <div className="app-link">
-          <p style={{ padding: 15 }}>
-            <h4 style={{ fontWeight: 200 }}>Download Our </h4>
-            <h2 style={{ fontWeight: 500 }}>Mobile Apps</h2>
-          </p>
-          <div className="app-link-1">
-            <div>
-              <Link
-                to="https://play.google.com/store/apps/details?id=com.iexceed.ib.digitalbankingprod"
-                target="_blank"
-              >
-                <img src={playstore} className="playstore" />
-              </Link>
-            </div>
-            <div>
-              <Link
-                to="https://apps.apple.com/us/app/indsmart-indianbank-mobile-app/id6479515872"
-                target="_blank"
-              >
-                {" "}
-                <img src={appstore} className="apple" />
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      {/* ---------------------------Card Carousel Starts------------------------------------- */}
       <div className="card-carousel">
         <h2>How Can We Help you Today?</h2>
         <div
@@ -300,6 +317,83 @@ function Myhomepage() {
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+      </div>
+      {/* ---------------------------Card Carousel Ends------------------------------------- */}
+
+      <div className="self-ad">
+        <div className="rbi-scheme">
+          <img src={rbi} />
+        </div>
+
+        <div className="rates">
+          <div className="interest-rate">
+            <h1>MCLR</h1>
+            <div>
+              <h1>9%</h1>
+            </div>
+            <p>w.e.f. 03/09/2024</p>
+          </div>
+          <div className="yt-link">
+            <Link
+              to="https://www.youtube.com/channel/UC71NMIgjPSWTCGXnCc-Aiwg"
+              target="_blank"
+            >
+              <img src={youtube} />
+            </Link>
+          </div>
+        </div>
+        <div className="app-link">
+          <p style={{ padding: 15 }}>
+            <h4 style={{ fontWeight: 200 }}>Download Our </h4>
+            <h2 style={{ fontWeight: 500 }}>Mobile Apps</h2>
+          </p>
+          <div className="app-link-1">
+            <div>
+              <Link
+                to="https://play.google.com/store/apps/details?id=com.iexceed.ib.digitalbankingprod"
+                target="_blank"
+              >
+                <img src={playstore} className="playstore" />
+              </Link>
+            </div>
+            <div>
+              <Link
+                to="https://apps.apple.com/us/app/indsmart-indianbank-mobile-app/id6479515872"
+                target="_blank"
+              >
+                {" "}
+                <img src={appstore} className="apple" />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* -------------------------------------------Achivements Counter---------------------------------------------- */}
+      <div className="Achivements">
+        <div className="  customers">
+          <img className="counterimg" src={customer} />
+          <h1>{count}</h1>
+          <h1>Customers</h1>
+        </div>
+
+        <div className="atm">
+        <img className="counterimg" src={atm} />
+          <h1>{count1}</h1>
+          <h1>ATM</h1>
+        </div>
+
+        <div className="branches">
+        <img className="counterimg" src={branches} />
+          <h1>{count2}</h1>
+          <h1>Branches</h1>
+        </div>
+
+        <div className="bna">
+          <h1>{count3}</h1>
+          <img  className="counterimg" src={bna} />
+          <h1>BNA</h1>
+        </div>
+
       </div>
     </>
   );

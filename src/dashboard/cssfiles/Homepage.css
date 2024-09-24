@@ -1,395 +1,503 @@
   /* Slider CSS Starts from here */
 
-.slider-img{
-    position: relative;
-}
-.slider-btn{
-    display: flex;
-    position: absolute;
-    gap: 2%;
-    width: 100%;
-    justify-content: center;
-    bottom: 30px;
-}
-.s-btn{
-    
-    background-color: #fff;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-   
-}
-.slider-btn :hover{
-    background-color: #d92b2b;
-    cursor: pointer;
-}
+  .slider-img {
+      position: relative;
+  }
+
+  .slider-btn {
+      display: flex;
+      position: absolute;
+      gap: 2%;
+      width: 100%;
+      justify-content: center;
+      bottom: 30px;
+  }
+
+  .s-btn {
+
+      background-color: #fff;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+
+  }
+
+  .slider-btn :hover {
+      background-color: #d92b2b;
+      cursor: pointer;
+  }
 
 
-   /* Right Sidebar starts from here */
-.right-sidebar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 160px;
-    margin-top: 180px;
-    z-index: 9999;
-}
-.netbankin-img {
-    width: 45px;
-    height: 45px;
-    position: relative;
-    right: 7px;
-    bottom: 5px;
-}
-.nb-text {
-    color: #ffffff;
-    font-size: 13px;
-    line-height: 32px;
-    position: absolute;
-    width: 105px;
-    left: 60px;
-}
-.net-banking {
-    background-color: #d92b2b;
-    width: 160px;
-    height: 56px;
-    padding: 5px;
-    transition: .4s;
-    display: flex;
-    position: relative;
-    padding: 12px;
-}
-.net-banking:hover {
-    scale: 1.1;
-}
-.nri-img {
-    width: 35px;
-    height: 40px;
-    padding-left: 1px;
+  /* Right Sidebar starts from here */
+  .right-sidebar {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 160px;
+      margin-top: 180px;
+      z-index: 9999;
+  }
 
-}
-.nri-text {
-    width: 105px;
-    position: absolute;
-    font-size: 13px;
-    line-height: 16px;
-    left: 60px;
-}
+  .netbankin-img {
+      width: 45px;
+      height: 45px;
+      position: relative;
+      right: 7px;
+      bottom: 5px;
+  }
 
-.nri-forex {
-    background-color: blue;
-    width: 160px;
-    height: 56px;
-    color: white;
-    display: flex;
-    text-align: left;
-    transition: .4s;
-    padding: 12px;
-    position: relative;
-}
+  .nb-text {
+      color: #ffffff;
+      font-size: 13px;
+      line-height: 32px;
+      position: absolute;
+      width: 105px;
+      left: 60px;
+  }
 
-.nri-forex:hover {
-    scale: 1.1;
-}
+  .net-banking {
+      background-color: #d92b2b;
+      width: 160px;
+      height: 56px;
+      padding: 5px;
+      transition: .4s;
+      display: flex;
+      position: relative;
+      padding: 12px;
+  }
 
-.gift-img {
-    width: 40px;
-    height: 40px;
-}
+  .net-banking:hover {
+      scale: 1.1;
+  }
 
-.reward {
-    background-color: #1e6bb5;
-    width: 160px;
-    height: 56px;
-    padding: 12px;
-    display: flex;
-    transition: .4s;
-    position: relative;
-}
+  .nri-img {
+      width: 35px;
+      height: 40px;
+      padding-left: 1px;
 
-.gift-text {
-    width: 105px;
-    line-height: 16px;
-    font-size: 13px;
-    left: 60px;
-    color: #ffffff;
-    margin-left: 7px;
-}
+  }
 
-.reward-text {
-    font-size: 11px;
-}
+  .nri-text {
+      width: 105px;
+      position: absolute;
+      font-size: 13px;
+      line-height: 16px;
+      left: 60px;
+  }
 
-.reward:hover {
-    scale: 1.1;
-}
+  .nri-forex {
+      background-color: blue;
+      width: 160px;
+      height: 56px;
+      color: white;
+      display: flex;
+      text-align: left;
+      transition: .4s;
+      padding: 12px;
+      position: relative;
+  }
 
-.rs-icon {
-    position: relative;
-    bottom: 5px;
-    width: 32px;
-    height: 45px;
-}
+  .nri-forex:hover {
+      scale: 1.1;
+  }
 
-.m-bankingtext {
-    width: 101px;
-    line-height: 16px;
-    color: white;
-    left: 50px;
-    padding-left: 12px;
-    position: absolute;
-    font-size: 13px;
-    display: inline-block !important;
-}
+  .gift-img {
+      width: 40px;
+      height: 40px;
+  }
 
-.mobile {
-    background-color: #7731a3;
-    width: 160px;
-    height: 56px;
-    padding: 12px;
-    transition: .4s;
-    display: block;
-}
+  .reward {
+      background-color: #1e6bb5;
+      width: 160px;
+      height: 56px;
+      padding: 12px;
+      display: flex;
+      transition: .4s;
+      position: relative;
+  }
 
-.mobile:hover {
-    scale: 1.1;
-}
+  .gift-text {
+      width: 105px;
+      line-height: 16px;
+      font-size: 13px;
+      left: 60px;
+      color: #ffffff;
+      margin-left: 7px;
+  }
 
-.cusicon {
-    position: relative;
-    width: 40px;
-    height: 40px;
-}
+  .reward-text {
+      font-size: 11px;
+  }
 
-.cus-text {
-    color: white;
-    width: 101px;
-    left: 60px;
-    line-height: 16px;
-    position: absolute;
-    font-size: 13px;
-    display: inline-block !important;
-}
+  .reward:hover {
+      scale: 1.1;
+  }
 
-.support {
-    background-color: #4DC313;
-    width: 160px;
-    height: 56px;
-    padding: 12px;
-    transition: .4s;
-    display: block;
-    position: relative;
-}
+  .rs-icon {
+      position: relative;
+      bottom: 5px;
+      width: 32px;
+      height: 45px;
+  }
 
-.support:hover {
-    scale: 1.1;
-}
+  .m-bankingtext {
+      width: 101px;
+      line-height: 16px;
+      color: white;
+      left: 50px;
+      padding-left: 12px;
+      position: absolute;
+      font-size: 13px;
+      display: inline-block !important;
+  }
 
-.dform-img {
-    width: 25px;
-    height: 25px;
-    position: relative;
-    bottom: 0;
-}
+  .mobile {
+      background-color: #7731a3;
+      width: 160px;
+      height: 56px;
+      padding: 12px;
+      transition: .4s;
+      display: block;
+  }
 
-.dform-text {
-    color: white;
-    width: 101px;
-    left: 60px;
-    line-height: 16px;
-    position: absolute;
-    font-size: 13px;
-    display: inline-block !important;
-}
+  .mobile:hover {
+      scale: 1.1;
+  }
 
-.form-download {
-    background-color: #BA3294;
-    width: 160px;
-    height: 56px;
-    padding: 12px;
-    transition: .4s;
-    display: flex;
-}
+  .cusicon {
+      position: relative;
+      width: 40px;
+      height: 40px;
+  }
 
-.form-download:hover {
-    scale: 1.1;
-}
-.left-sidebar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 160px;
-    margin-top: 180px;
-    z-index: 9999;
-}
-.chatbot-area{
-    max-height: 80px;
-    height: 80px;
-    position: fixed;
-    top: 0;
-    margin-top: 580px;
-    right: 25px;
-    width: -110px;
-    filter:drop-shadow(10px 15px 25px #ffe8a3);
-    z-index: 9999;
-}
-.chatbot{
-    height: 75px;
-    width: 75px;
-    border-radius: 50%;
-    background-color: #ffffff;
-    border-radius: 75px;
-    
-}
-.chatbot:hover{
-    animation: shake 2s infinite ease-in-out;
-    animation-iteration-count: 3;
-    cursor: pointer;
-    background-color: #ffe8a3;
-    transition: background-color 1s ease;
-}
-@keyframes shake  {
-    0%{
-        transform: scale(1);
-    }
-    10%, 20% {
-        transform: scale(0.9) rotate(-3deg);
-    }
-    30%, 50%, 70%,90%{
-        transform: scale(1.1) rotate(3deg);
-    }
-    40%, 60%, 80% {
-        transform: scale(1.1) rotate(-3deg);
-    }
-    100%{
-        transform: scale(1) rotate(0);
-    }
+  .cus-text {
+      color: white;
+      width: 101px;
+      left: 60px;
+      line-height: 16px;
+      position: absolute;
+      font-size: 13px;
+      display: inline-block !important;
+  }
 
+  .support {
+      background-color: #4DC313;
+      width: 160px;
+      height: 56px;
+      padding: 12px;
+      transition: .4s;
+      display: block;
+      position: relative;
+  }
 
-}
-    /* 0% {transform: Rotate(30deg);} */
-    /* 20% {transform: Rotate(-30deg);} */
-    /* 40% {transform: Rotate(20deg);} */
-    /* 50% {transform: Rotate(-20deg);} */
-    /* 80% {transform: RotateY(20deg);} */
-   /* 100% {transform: Rotate(-20deg),;} */
-   /* 0%{scale: 1;} */
-/* 50%{scale: 0.8} */
-/* 75%{scale: 0.8;} */
+  .support:hover {
+      scale: 1.1;
+  }
 
+  .dform-img {
+      width: 25px;
+      height: 25px;
+      position: relative;
+      bottom: 0;
+  }
 
-/* .chatbot:hover{
-    animation: zoom 1s infinite ;
-    animation-timing-function: ease-in-out;
-}
+  .dform-text {
+      color: white;
+      width: 101px;
+      left: 60px;
+      line-height: 16px;
+      position: absolute;
+      font-size: 13px;
+      display: inline-block !important;
+  }
 
-@keyframes zoom{
-    0%{
+  .form-download {
+      background-color: #BA3294;
+      width: 160px;
+      height: 56px;
+      padding: 12px;
+      transition: .4s;
+      display: flex;
+  }
 
-    }
-    25%{
-    }
-    50%
-    {
-        scale: 0.8;
-    }
-    75%{
-        scale: 1;
-    }
-    
-} */
-.chatbot img{
-    height: 70px ;
-    width: 70px;
-}
-.botname{
-    font-size: 12px;
-    font-weight: 600;
-    font-family:classic roboto;
-    margin-top: 2px;
-}
-        /* Market Feed CSS started from here */
+  .form-download:hover {
+      scale: 1.1;
+  }
 
-.market-feed{
-    display: flex;
-    width: 100%;
-    height: 60px;
-    box-sizing: border-box;
-    border-bottom: 2px solid #17bad3;
-}
+  /* --------------------------------left sidebar starts----------------------------------- */
 
-.mf-feed{
-    width: 26%;
-    background-color: #17bad3;
-    text-decoration: none;
-}
-.mf-feed p{
-    color: white;
-    font-size: 20px;
-    text-align:right;
-    font-weight: 600;
-    padding-right: 30px;
-    padding-top: 20px;
-}
-.mf-list{
-    width: 19%;
-    color:#17bad3 ;
-    text-align: center;
-    padding-top: 20px;
-    font-size: 14px;
-    font-weight: 600;
-    box-sizing: border-box;
-    border-right: 2px solid lightgray;
-    text-decoration: none;
-    
-}
+  .left-sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 160px;
+      margin-top: 180px;
+      z-index: 9999;
+  }
 
-.mf-list a{
-    text-decoration: none;
-}
-.mf-list p:hover{
-    color: #254878;
-    cursor: pointer;
-}
-.mf-blank{
-    width: 16%;
-    background-color: #17bad3;
-}
+  /* ------------------------------------left sidebar ends-------------------------------------- */
+  /* -------------------------------CHATBOT CSS START-------------------------------- */
+  .chatbot-area {
+      max-height: 80px;
+      height: 80px;
+      position: fixed;
+      top: 0;
+      margin-top: 580px;
+      right: 25px;
+      width: -110px;
+      filter: drop-shadow(10px 15px 25px #ffe8a3);
+      z-index: 9999;
+  }
+
+  .chatbot {
+      height: 75px;
+      width: 75px;
+      border-radius: 50%;
+      background-color: #ffffff;
+      border-radius: 75px;
+
+  }
+
+  .chatbot:hover {
+      animation: shake 2s infinite ease-in-out;
+      animation-iteration-count: 3;
+      cursor: pointer;
+      background-color: #ffe8a3;
+      transition: background-color 1s ease;
+  }
+
+  @keyframes shake {
+      0% {
+          transform: scale(1);
+      }
+
+      10%,
+      20% {
+          transform: scale(0.9) rotate(-3deg);
+      }
+
+      30%,
+      50%,
+      70%,
+      90% {
+          transform: scale(1.1) rotate(3deg);
+      }
+
+      40%,
+      60%,
+      80% {
+          transform: scale(1.1) rotate(-3deg);
+      }
+
+      100% {
+          transform: scale(1) rotate(0);
+      }
 
 
-.self-ad{
-    width: 80%;
-    height: auto;
-    justify-content: center;
-    display: flex;
-    position: relative;
-    margin: auto;
-    padding: 20px;
-}
-.rates{
-    padding: 10px;
-}
-.interest-rate{
-    background-color: #1e6bb5;
-    color: #fff;
-}
-.app-link{
-    background-image: url(../images/mobile-app-bg.jpg);
-display: flex;
-width: 100%;
+  }
 
-}
-.app-link-1{
-    width: 100px;
-    margin-top: 20px;
-    margin-left: 100px;
-    
-}
-.apple{
-    width: 100px;
-    height: 40px;
-}
-.playstore{
-    width: 100px;
-    height: 40px;
-}
+  .chatbot img {
+      height: 70px;
+      width: 70px;
+  }
+
+  .botname {
+      font-size: 12px;
+      font-weight: 600;
+      font-family: classic roboto;
+      margin-top: 2px;
+  }
+
+  /* -------------------------------CHATBOT CSS ENDs-------------------------------- */
+
+  /* ------------------------- Market Feed CSS started from here------------------- */
+
+  .market-feed {
+      display: flex;
+      width: 100%;
+      height: 60px;
+      box-sizing: border-box;
+      border-bottom: 2px solid #17bad3;
+  }
+
+  .mf-feed {
+      width: 26%;
+      background-color: #17bad3;
+      text-decoration: none;
+  }
+
+  .mf-feed p {
+      color: white;
+      font-size: 20px;
+      text-align: right;
+      font-weight: 600;
+      padding-right: 30px;
+      padding-top: 20px;
+  }
+
+  .mf-list {
+      width: 19%;
+      color: #17bad3;
+      text-align: center;
+      padding-top: 20px;
+      font-size: 14px;
+      font-weight: 600;
+      box-sizing: border-box;
+      border-right: 2px solid lightgray;
+      text-decoration: none;
+
+  }
+
+  .mf-list a {
+      text-decoration: none;
+  }
+
+  .mf-list p:hover {
+      color: #254878;
+      cursor: pointer;
+  }
+
+  .mf-blank {
+      width: 16%;
+      background-color: #17bad3;
+  }
+
+
+  .self-ad {
+      width: 80%;
+      height: auto;
+      justify-content: center;
+      display: flex;
+      position: relative;
+      margin: auto;
+      padding: 20px;
+      min-height: 470px;
+  }
+
+
+  .rates {
+      padding: 10px;
+  }
+
+  .interest-rate {
+      background-color: #1e6bb5;
+      color: #fff;
+  }
+
+  .app-link {
+      background-image: url(../images/mobile-app-bg.jpg);
+      display: flex;
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+
+  .app-link-1 {
+      width: 100px;
+      margin-top: 20px;
+      margin-left: 100px;
+
+  }
+
+  .apple {
+      width: 100px;
+      height: 40px;
+  }
+
+  .playstore {
+      width: 100px;
+      height: 40px;
+  }
+
+  /* ------------------------- Market Feed CSS ends here------------------- */
+
+  .card-carousel {
+      width: 80%;
+      margin-left: 10%;
+      padding-bottom: 50px;
+      padding-top: 50px;
+  }
+
+  .card-carousel h2 {
+      text-align: center;
+      font-weight: 400;
+      padding-top: 10px;
+  }
+
+  .cards {
+      display: flex;
+  }
+
+  .card-1 {
+      width: 24%;
+  }
+
+  .card-2 {
+      width: 24%;
+  }
+
+  .card-3 {
+      width: 24%;
+  }
+
+  .card-4 {
+      width: 24%;
+  }
+
+  .card-5 {
+      width: 24%;
+  }
+
+  /* -----------------------------------------card carousel css ends-------------------------- */
+
+  /* ------------------------------------------Achivements Counter starts--------------------------------------------------- */
+
+  .Achivements {
+      width: 100%;
+      height: auto;
+      min-height: 400px;
+      background-image: url(../images/counter-bg.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      padding-top: 15%;
+      padding-bottom: 10%;
+      gap: 15%;
+      line-height: 24px;
+      padding-left: 20%;
+      padding-right: 20%;
+      font-family: "Old Standard TT", serif;
+  }
+
+
+  .customers {
+      position: relative;
+      align-items: center;
+  }
+
+  .atm {
+      position: relative;
+
+  }
+
+  .branches {
+      position: relative;
+
+  }
+
+  .bna {
+      position: relative;
+
+  }
+
+  .counterimg {
+      width: 80px;
+      height: 80px;
+      position: absolute;
+      bottom: 100%;
+
+  }
+
+  /* ------------------------------------------Achivements Counter ends--------------------------------------------------- */
